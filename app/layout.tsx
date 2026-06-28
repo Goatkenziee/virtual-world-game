@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -16,14 +16,19 @@ export const metadata: Metadata = {
     "ai bots",
     "social game",
   ],
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  themeColor: "#0a0a1a",
   openGraph: {
     title: "Virtual World — Play with Friends & AI People",
     description:
       "A 2D virtual world where you can explore, meet AI bots, and hang out with friends.",
     type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: "#0a0a1a",
 };
 
 export default function RootLayout({
