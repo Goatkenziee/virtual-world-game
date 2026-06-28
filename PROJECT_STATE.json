@@ -1,10 +1,12 @@
 {
-  "updatedAt": "2026-06-27T18:42:46.224Z",
+  "updatedAt": "2026-06-28T12:52:17.363Z",
   "framework": "Next.js",
   "dbModels": [],
   "apiRoutes": [],
   "pages": [
-    "app/page.tsx"
+    "app/page.tsx",
+    "pages/_app.tsx",
+    "pages/_document.tsx"
   ],
   "components": [
     "app/layout.tsx",
@@ -27,5 +29,5 @@
     "tailwindcss",
     "typescript"
   ],
-  "fileCount": 17
+  "fileCount": 19
 }
